@@ -1,0 +1,60 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title align="center">个人资料</ion-title>
+    <ion-buttons end>
+      <button  (click)="ChangePasswordPage($event)"  ion-button icon-only>
+          修改密码
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-list>
+    <ion-item-group>
+      <ion-item-divider color="light">基本资料</ion-item-divider>
+      <ion-item>
+        代理商级别:二级
+      </ion-item>
+
+      <ion-item>
+        代理商编号:ZMTXXXXXXXXXXXX
+      </ion-item>
+
+      <ion-item>
+        代理商名称:中麦通信
+      </ion-item>
+      <ion-item>
+        代理商简称:小麦
+      </ion-item>
+      <ion-item>
+        所属地区：北京朝阳区
+      </ion-item>
+      <ion-item>
+        联系地址:建外大街12号12层
+      </ion-item>
+    </ion-item-group>
+    <ion-item-group>
+      <ion-item-divider color="light">联系人信息</ion-item-divider>
+      <ion-item>
+        姓名:老王
+      </ion-item>
+      <ion-item>
+        电话:17090020984
+      </ion-item>
+      <ion-item>
+        邮箱:zmtx@10020.cn
+      </ion-item>
+    </ion-item-group>
+    <ion-item-group>
+      <ion-item-divider color="light">账户信息</ion-item-divider>
+      <ion-item class="last_item">
+        登录用户名:zmtx
+      </ion-item>
+    </ion-item-group>
+  </ion-list>
+  <div>
+      <button color="primary" block   ion-button>
+          退出
+      </button>
+  </div>
+</ion-content>

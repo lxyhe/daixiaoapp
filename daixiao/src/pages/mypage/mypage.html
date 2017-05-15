@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-navbar >
+    <ion-title align="center">我</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-card>
+    <img class="backgroundImg" src="assets/img/headbackground.png" />
+    <div class="card-title" (click)="goPopleinformation()">
+      <img class="headerImg" src="assets/img/timg.jpg" alt="" />
+      <p>疯狂的石头</p>
+    </div>
+  </ion-card>
+  <ion-card>
+      <button ion-item>
+        <ion-icon name="cart" item-left></ion-icon>
+        系统消息
+        <ion-badge item-right>4</ion-badge>
+      </button>
+  </ion-card>
+  <ion-card>
+      <button ion-item>
+        <ion-icon name="pin" item-left></ion-icon>
+        版本更新
+      </button>
+      <button ion-item>
+        <ion-icon name="cash" item-left></ion-icon>
+        意见反馈
+      </button>
+      <button ion-item>
+        <ion-icon name="medal" item-left></ion-icon>
+        问题反馈
+      </button>
+      <button ion-item>
+        <ion-icon name="apps" item-left></ion-icon>
+        关于我们
+      </button>
+  </ion-card>
+  <ion-card>
+      <button ion-item>
+        <ion-icon name="cog"  item-left></ion-icon>
+        清除缓存
+      </button>
+  </ion-card>
+</ion-content>

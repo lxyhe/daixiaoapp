@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title align="center">
+      中麦代销平台
+    </ion-title>
+    <ion-buttons end>
+      <button  (click)="goMoneyList()"  ion-button icon-only>
+        收支明细
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+  <div class="fund_balance">
+    <div align="center">
+      <span>  <ion-icon name="logo-usd" icon-left></ion-icon>
+          账户余额：<span>10000000000元</span>
+      </span>
+    </div>
+
+  </div>
+  <div id="consignee">
+    <div class="consignee_object">选择划拨对象</div>
+    <ion-card>
+      <button class="Consignee_btn" ion-item (click)="getobject()" >
+        <ion-avatar item-left>
+          <img src="assets/img/timg.jpg">
+        </ion-avatar>
+        <h3>
+            <span class="username">代销001</span>
+            <span class="usercode">编码:100654605</span>
+          </h3>
+        <p>
+          <span class="drawmoney">已划拨:1000000元</span>
+          <span class="surplus">剩余:9000000元</span>
+        </p>
+      </button>
+
+    </ion-card>
+  </div>
+</ion-content>

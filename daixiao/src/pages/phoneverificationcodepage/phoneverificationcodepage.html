@@ -1,0 +1,15 @@
+<ion-content>
+  <div class="content">
+    <h2>付款确认</h2>
+    <div class="sub_title">请输入手机号码收到的短信验证码</div>
+    <div class="input_code">
+
+      <ion-input type="text" value=""></ion-input>
+      <span id="Countdown" (click)="timing_update()">{{code_time}}</span>
+    </div>
+    <div class="confirm_btn">
+      <button col-5 ion-button (click)="dismiss()">取消</button>
+      <button col-5 ion-button >确认</button>
+    </div>
+  </div>
+</ion-content>

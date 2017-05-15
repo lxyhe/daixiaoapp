@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title align="center">
+      中麦代销平台
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class=" login-top">
+    <div class="login_icon">
+      <img src="assets/img/zhongmai.jpg" />
+    </div>
+    <div class="loginborder" [(ngModel)]="username">
+      <ion-input placeholder="请输入登录名"></ion-input>
+    </div>
+    <div class="loginborder" [(ngModel)]="password">
+      <ion-input type="password" placeholder="请输入密码"></ion-input>
+    </div>
+    <div class="authcodeborder" [(ngModel)]="authcode">
+      <ion-input placeholder="验证码"></ion-input>
+    </div>
+    <div class="login_btn_border" padding>
+      <button class="login_btn" ion-button block color="secondary" (click)="login()">登录</button>
+    </div>
+    <p padding>
+      <a href="#">
+          忘记登录密码?
+      </a>
+    </p>
+  </div>
+
+</ion-content>

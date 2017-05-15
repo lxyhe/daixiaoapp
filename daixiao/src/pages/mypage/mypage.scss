@@ -1,0 +1,92 @@
+page-mypage {
+  ion-card {
+    position: relative;
+  }
+
+  .backgroundImg {
+    width: 100%;
+    height: 180px;
+  }
+
+  .scroll-content {
+    background-color: #ECF0F1;
+  }
+
+  .item-ios,
+  .item-md {
+    border-bottom: 1px solid #ECF0F1;
+  }
+
+  .notifications {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .ion-ios-notifications:before,
+  .ion-md-notifications:before {
+    color: #fff;
+    font-size: 24px;
+  }
+
+  .card-ios,
+  .card-md {
+    margin: 0 0 10px;
+    width: 100%;
+  }
+
+  .card-title {
+    position: absolute;
+    top: 50%;
+    top: 36%;
+    font-size: 2.0em;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+  }
+
+  .card-title > p {
+    width: 100%;
+    margin: 3% auto 0;
+    color: #fff;
+  }
+
+  .headerImg {
+    width: 20%;
+    height: 20%;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    border-radius: 50%;
+  }
+
+  .ion-ios-cart:before,
+  .ion-md-cart:before {
+    color: #90C31F,;
+  }
+
+  .ion-ios-pin:before,
+  .ion-md-pin:before {
+    color: #90C31F,;
+  }
+
+  .ion-ios-cash:before,
+  .ion-md-cash:before {
+    color: #90C31F,;
+  }
+
+  .ion-ios-medal:before,
+  .ion-md-medal:before {
+    color: #90C31F,;
+  }
+
+  .ion-ios-apps:before,
+  .ion-md-apps:before {
+    color: #90C31F,;
+  }
+
+  .ion-ios-cog:before,
+  .ion-md-cog:before {
+    color: #90C31F,;
+  }
+}

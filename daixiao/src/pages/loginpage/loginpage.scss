@@ -1,0 +1,75 @@
+page-loginpage {
+  .scroll-content {
+    // background-image: url('../assets/img/appbackground.jpg');
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // z-index: 1;
+    background-color: #F0F0F2;
+  }
+ .text-input text-input-ios ng-pristine ng-valid ng-touched{
+    border: 1px solid #ddd;
+    padding: 5px;
+  }
+  ion-input {
+    margin: 0;
+  }
+
+  .login_icon {
+    width: 20%;
+    height: 20%;
+    margin: 20px auto 50px;
+  }
+
+  .login_icon > img {
+    border-radius: 8px;
+  }
+
+  .login_btn_border {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .login_btn {
+    border-radius: 10px;
+  }
+
+  .login-top {
+    margin-top: 15%;
+  }
+
+  .login-top > p {
+    text-align: right;
+    margin-right: 40px;
+  }
+
+  .login-top > .note > p {
+    text-align: center;
+  }
+
+  .login-top > .note > p > a {
+    text-decoration: none;
+  }
+
+  .login-top > p > a {
+    text-decoration: none;
+  }
+
+  .loginborder {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding-left: 10px;
+    width: 70%;
+    margin: 10px 15%;
+  }
+
+  .authcodeborder {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-left: 10px;
+    width: 30%;
+    margin-left: 15%;
+  }
+}

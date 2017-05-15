@@ -1,0 +1,33 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title align="center">划拨付款</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <ion-card>
+    <ion-item>
+      代销商名称: 撒旦法撒旦
+    </ion-item>
+    <ion-item>
+      代销商编号: ZMTXXXXXXXXXX
+    </ion-item>
+    <ion-item>
+      <ion-label>划拨金额:</ion-label>
+      <ion-input placeholder="大于等于10元"></ion-input>元
+    </ion-item>
+    <ion-item>
+      <ion-label>支付密码:</ion-label>
+      <ion-input placeholder="单行输入"></ion-input>
+    </ion-item>
+    <ion-item>
+      <span item-right small class="alternatepassword">忘记支付密码？</span>
+    </ion-item>
+    <button  color="primary" ion-button (click)="phone_verification_code()">
+        提交
+    </button>
+  </ion-card>
+</ion-content>

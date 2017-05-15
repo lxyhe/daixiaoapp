@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title align="center">
+      业务办理
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-slides #mySlider autoplay="3000" initialSlide="0" pager="true" loop="true" speed="300" style="width:100%;height:200px">
+    <ion-slide>
+      <img src="assets/img/banner1.jpg" alt="">
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/img/banner2.jpg" alt="">
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/img/banner3.jpg" alt="">
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/img/banner4.jpg" alt="">
+    </ion-slide>
+  </ion-slides>
+  <div class="funnel">
+    <ion-row>
+      <ion-col width-25 (click)="gomoney()">
+        <span class="logo-usd">
+       <ion-icon name="logo-usd"></ion-icon>
+       </span> 资金管理
+      </ion-col>
+      <ion-col width-25>
+
+
+      </ion-col>
+      <ion-col width-25>
+
+      </ion-col>
+      <ion-col width-25>
+
+
+      </ion-col>
+
+    </ion-row>
+  </div>
